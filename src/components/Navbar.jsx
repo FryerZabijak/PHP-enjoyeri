@@ -3,7 +3,7 @@ import Logo from "../img/php-enjoyeri-logo.svg";
 
 export default function Navbar() {
   return (
-    <nav className="fixed w-full flex justify-center items-center gap-12 shadow-lg bg-white">
+    <nav className="fixed w-full flex justify-center items-center gap-12 shadow-lg bg-white z-50">
       <div className="flex items-center justify-between w-full max-w-4xl">
         <a href="/">
           <img src={Logo} style={{ height: 90 }} />

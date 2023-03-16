@@ -9,4 +9,57 @@
 
 html{
     font-family: "Poppins";
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
+
+
+.rating-component{
+    opacity: 0;
+    animation: animation-rating-out .2s forwards;
+    transition:ease-in;
+}
+
+.rating-active{
+    opacity: 1;
+    animation: animation-rating-in-up .2s forwards;
+}
+
+.anim-up{
+    animation: animation-rating-in-up .6s forwards;
+}
+
+.anim-down{
+    animation: animation-rating-in-down .6s forwards;
+}
+
+
+@keyframes animation-rating-out {
+    from{opacity: 1;}
+    to{opacity: 0;}
+}
+
+@keyframes animation-rating-in-down {
+    from{transform: translate(0,-48px); opacity: 0;}
+    to{transform: translate(0,0); opacity: 1;}
+}
+
+@keyframes animation-rating-in-up {
+    from{transform: translate(0,48px); opacity: 0;}
+    to{transform: translate(0,0); opacity: 1;}
+}
+
+.dot{
+    background-color: #CCC;
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+}
+
+.dot-active{
+    background-color: var(--php);
+}
+
+a,button,input[type="submit"]{
+    transition:.2s;
 }
