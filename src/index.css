@@ -63,3 +63,67 @@ html{
 a,button,input[type="submit"]{
     transition:.2s;
 }
+
+.mobile-menu-show{
+    z-index: 999;
+    display:unset;
+    position:fixed;
+    width: 100vw;
+    height: 200vh;
+    background-color: #00000050;
+}
+
+.mobile-menu > div{
+    display:flex;
+    flex-direction: column;
+    padding:10vh 5vh;
+    gap:5vh;
+    font-size: 24px;
+    position:fixed;
+    width: 70vw;
+    height: 100vh;
+    z-index: 10000 !important;
+    left: 0;
+    top:0;
+    border-right: 1px solid #000;
+    pointer-events:visible;
+}
+
+.mobile-menu-show > div{
+    animation: slide-in .6s forwards;
+}
+
+.mobile-menu-hide > div{
+    animation: slide-out .6s forwards;
+}
+
+#close{
+    position:absolute;
+    right: 10%;
+    top:5%;
+    cursor: pointer;
+}
+
+.mobile-menu-show > div > a:hover{
+    color:#CCC;
+}
+
+.mobile-hidden *{
+    display: none !important;
+}
+
+@keyframes slide-in {
+    from{transform: translateX(-500px);}
+    to{transform: translateX(0);}
+}
+
+@keyframes slide-out {
+    from{transform: translateX(0);}
+    to{transform: translateX(-100%);}
+}
+
+@media only screen and (min-width: 768px) {
+    .mobile-menu-show{
+        display:none !important;
+    }
+}

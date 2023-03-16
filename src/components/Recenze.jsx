@@ -33,12 +33,12 @@ export default function Recenze() {
   return (
     <div
       id="recenze"
-      className="grid gap-4"
+      className="grid gap-4 md:flex md:flex-col md:justify-center"
       style={{ gridTemplateColumns: `3fr 7fr` }}
     >
       <div>
-        <h2 className="font-medium">Recenze</h2>
-        <h3 className="font-bold text-4xl">Co si o PHP myslí ostatní?</h3>
+        <h2 className="font-medium md:text-center">Recenze</h2>
+        <h3 className="font-bold text-4xl md:text-center">Co si o PHP myslí ostatní?</h3>
         <div className="dots flex justify-center gap-6 mt-10">
         </div>
         <div className="controls text-3xl bg-white flex justify-center mt-10 gap-8">
@@ -58,7 +58,7 @@ export default function Recenze() {
           </button>
         </div>
       </div>
-      <div style={{ position: "relative" }}>
+      <div style={{ position: "relative" }} className="md:mx-16 sm:mx-8 md:mt-8 md:min-h-[300px]">
         <RecenzeComponent
           name="Random borec"
           profession="PHP Enjoyer"

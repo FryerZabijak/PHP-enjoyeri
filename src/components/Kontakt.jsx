@@ -73,20 +73,20 @@ export default function Kontakt() {
           onSubmit={sendEmail}
         >
           <input
-            className="input border w-96 p-2 rounded-lg"
+            className="input border w-96 sm:w-72 p-2 rounded-lg"
             placeholder="Jméno"
             name="name"
             required
           />
           <input
-            className="input border w-96 p-2 rounded-lg"
+            className="input border w-96 sm:w-72 p-2 rounded-lg"
             placeholder="E-mail"
             type="email"
             name="email"
             required
           />
           <textarea
-            className="input border w-96 p-2 rounded-lg h-72 resize-none"
+            className="input border w-96 sm:w-72 p-2 rounded-lg h-72 resize-none"
             placeholder="Zpráva..."
             name="message"
             required
