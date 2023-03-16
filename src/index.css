@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+:root{
+    --php: #4F5B93;
+}
+
 html{
     font-family: "Poppins";
 }
