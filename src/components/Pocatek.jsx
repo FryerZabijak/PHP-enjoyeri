@@ -3,7 +3,7 @@ import php_code from "../img/php-code.png";
 
 export default function Pocatek() {
   return (
-    <div id="pocatek" className="text-center mt-32">
+    <div id="pocatek" className="text-center">
       <h2 className="font-medium">Počátek</h2>
       <h3 className="font-bold text-4xl">Všechno to začíná pěti znaky</h3>
       <div className="grid grid-cols-2 mt-10">

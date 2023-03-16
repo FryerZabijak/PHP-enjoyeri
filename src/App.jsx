@@ -6,7 +6,7 @@ import Wrapper from "./components/Wrapper";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App mb-52 ">
         <Navbar />
       <Wrapper>
         <Hero />
