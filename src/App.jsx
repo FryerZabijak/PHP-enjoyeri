@@ -7,10 +7,11 @@ import Tipy from "./components/Tipy";
 import Recenze from "./components/Recenze";
 import Firmy from "./components/Firmy";
 import Kontakt from "./components/Kontakt";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App mb-52">
+    <div className="App">
         <Navbar />
       <Wrapper>
         <Hero />
@@ -21,6 +22,7 @@ function App() {
         <Firmy/>
         <Kontakt/>
       </Wrapper>
+        <Footer/>
     </div>
   );
 }
