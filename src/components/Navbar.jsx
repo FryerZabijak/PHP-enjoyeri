@@ -54,7 +54,7 @@ export default function Navbar() {
 
       <nav className="fixed w-full flex justify-center items-center gap-12 shadow-lg bg-white z-50 md:px-8">
         <div className="flex items-center justify-between w-full max-w-4xl">
-          <a href="/">
+        <a href="/php-enjoyeri-website/">
             <img src={Logo} style={{ height: 90 }} />
           </a>
           <div className="md:hidden navbar-links flex gap-6 font-semibold text-php">
