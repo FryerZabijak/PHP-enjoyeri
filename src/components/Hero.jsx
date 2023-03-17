@@ -52,7 +52,7 @@ export default function Hero() {
           <h1 className="text-dark-php mt-4 text-6xl font-bold">
             Učte se PHP a ovládněte internet!
           </h1>
-          <p className="text-php mt-4">
+          <p className="text-black mt-4">
             když chcete programovat jako boss, ale vaše šéfka vás nutí používat
             starou verzi Internet Exploreru.
           </p>

@@ -34,7 +34,7 @@ export default function Recenze() {
     <div
       id="recenze"
       className="grid gap-4 md:flex md:flex-col md:justify-center"
-      style={{ gridTemplateColumns: `3fr 7fr` }}
+      style={{ gridTemplateColumns: `3fr 7fr` }} data-aos="fade-up"
     >
       <div>
         <h2 className="font-medium md:text-center">Recenze</h2>

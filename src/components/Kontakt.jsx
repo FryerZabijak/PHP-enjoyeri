@@ -60,7 +60,7 @@ export default function Kontakt() {
   }
 
   return (
-    <div id="kontakt" className="bg-blue-50 p-8 rounded-lg text-center">
+    <div id="kontakt" className="bg-blue-50 p-8 rounded-lg text-center" data-aos="fade-up">
       <h2 className="font-medium">Kontakt</h2>
       <div id="contact-form">
         <h3 className="text-3xl font-medium ">

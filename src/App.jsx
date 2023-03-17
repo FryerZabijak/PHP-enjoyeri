@@ -8,13 +8,17 @@ import Recenze from "./components/Recenze";
 import Firmy from "./components/Firmy";
 import Kontakt from "./components/Kontakt";
 import Footer from "./components/Footer";
+import Aos from "aos";
+import 'aos/dist/aos.css'
 
 function App() {
+  Aos.init();
+
   return (
     <div className="App">
         <Navbar />
       <Wrapper>
-        <Hero />
+        <Hero/>
         <Pocatek/>
         <Vyhody/>
         <Tipy/>

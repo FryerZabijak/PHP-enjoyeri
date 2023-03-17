@@ -6,7 +6,7 @@ import ImgPHP from './../img/php.jpg'
 
 export default function Vyhody() {
   return (
-    <div className='text-center' id='vyhody'>
+    <div className='text-center' id='vyhody' data-aos="fade-up">
         <h2 className='font-medium'>Výhody PHP</h2>
         <h3  className='font-bold text-4xl'>A teď to nejlepší</h3>
         <div className='flex gap-8 mt-10 md:flex-col md:mx-32 sm:mx-8'>
