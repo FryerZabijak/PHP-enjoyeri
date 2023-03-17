@@ -40,7 +40,7 @@ export default function Navbar() {
           <a id="close">
             <FontAwesomeIcon icon={faClose} />
           </a>
-          <a href="/">
+          <a href="/php-enjoyeri-website/">
             <img src={Logo} style={{ height: 90, filter:"brightness(5)" }} />
           </a>
           <a href="#domu">Domů</a>
